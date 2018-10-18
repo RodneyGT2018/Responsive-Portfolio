@@ -19,6 +19,13 @@ body {
   clear: both;
 }
 
+.container2 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
 h1,
 h2,
 h3,
@@ -124,12 +131,27 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
+#main-container2 {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
 .main-section {
   float: left;
   width: 100%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 0 0px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.main-section2 {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 20px;
   background: #fff;
   border: 1px solid #ddd;
 }
